@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background-color: rgb(101, 223, 236);
+}
+h1{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.container{
+    width: auto;
+    height: auto;
+    border:3px solid rgb(27, 27, 27);
+    padding:20px;
+    border-radius: 10px;
+    
+    
+}
+fieldset {
+    max-width: 1024px;
+    margin: 5rem auto;
+  }
+
+  textarea {
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+
+  .btn-submit {
+    padding: 5px;
+    border: none;
+    margin: 5px 0 5px 45%;
+    border-radius: 5px;
+    background-color: aqua;
+    
+  }
+
+ #button:hover{
+ background-color: black;
+ color: white;
+ }
+  
+
+ 
